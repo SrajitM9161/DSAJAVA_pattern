@@ -14,7 +14,7 @@ public class q5_invertedhalfpyramid {
             int n= Sc.nextInt();
         for (int row=0;row<5; row++){
             for (int col=0;col<n-row;col++){
-                System.out.print( "*");
+                System.out.print( "* ");
             }
             System.out.print("\n");
         }

@@ -14,7 +14,7 @@ public class q7_numinvertedhalfpyramid {
         Scanner Sc= new Scanner(System.in);
         int n = Sc.nextInt();
         for (int row =0;row<n;row++){
-            for (int col=0;col<n-row;col++){
+            for (int col=0;col<n-row-1;col++){
                 System.out.print(col+1+"  ");
             }
             System.out.print("\n");
